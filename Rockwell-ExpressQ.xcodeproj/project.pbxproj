@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA16CC6223C80D650073B59A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16CC6123C80D650073B59A /* AppDelegate.swift */; };
+		AA16CC6423C80D650073B59A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA16CC6323C80D650073B59A /* GameScene.sks */; };
+		AA16CC6623C80D650073B59A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA16CC6523C80D650073B59A /* Actions.sks */; };
+		AA16CC6823C80D650073B59A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16CC6723C80D650073B59A /* GameScene.swift */; };
+		AA16CC6A23C80D650073B59A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16CC6923C80D650073B59A /* GameViewController.swift */; };
+		AA16CC6D23C80D650073B59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA16CC6B23C80D650073B59A /* Main.storyboard */; };
+		AA16CC6F23C80D660073B59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA16CC6E23C80D660073B59A /* Assets.xcassets */; };
+		AA16CC7223C80D660073B59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA16CC7023C80D660073B59A /* LaunchScreen.storyboard */; };
+		AA16CC7D23C80D660073B59A /* Rockwell_ExpressQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16CC7C23C80D660073B59A /* Rockwell_ExpressQTests.swift */; };
+		AA16CC8823C80D660073B59A /* Rockwell_ExpressQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16CC8723C80D660073B59A /* Rockwell_ExpressQUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA16CC7923C80D660073B59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA16CC5623C80D650073B59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA16CC5D23C80D650073B59A;
+			remoteInfo = "Rockwell-ExpressQ";
+		};
+		AA16CC8423C80D660073B59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA16CC5623C80D650073B59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA16CC5D23C80D650073B59A;
+			remoteInfo = "Rockwell-ExpressQ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA16CC5E23C80D650073B59A /* Rockwell-ExpressQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rockwell-ExpressQ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA16CC6123C80D650073B59A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA16CC6323C80D650073B59A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AA16CC6523C80D650073B59A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AA16CC6723C80D650073B59A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AA16CC6923C80D650073B59A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AA16CC6C23C80D650073B59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA16CC6E23C80D660073B59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA16CC7123C80D660073B59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA16CC7323C80D660073B59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA16CC7823C80D660073B59A /* Rockwell-ExpressQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rockwell-ExpressQTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA16CC7C23C80D660073B59A /* Rockwell_ExpressQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rockwell_ExpressQTests.swift; sourceTree = "<group>"; };
+		AA16CC7E23C80D660073B59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA16CC8323C80D660073B59A /* Rockwell-ExpressQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rockwell-ExpressQUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA16CC8723C80D660073B59A /* Rockwell_ExpressQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rockwell_ExpressQUITests.swift; sourceTree = "<group>"; };
+		AA16CC8923C80D660073B59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA16CC5B23C80D650073B59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA16CC7523C80D660073B59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA16CC8023C80D660073B59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA16CC5523C80D650073B59A = {
+			isa = PBXGroup;
+			children = (
+				AA16CC6023C80D650073B59A /* Rockwell-ExpressQ */,
+				AA16CC7B23C80D660073B59A /* Rockwell-ExpressQTests */,
+				AA16CC8623C80D660073B59A /* Rockwell-ExpressQUITests */,
+				AA16CC5F23C80D650073B59A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA16CC5F23C80D650073B59A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA16CC5E23C80D650073B59A /* Rockwell-ExpressQ.app */,
+				AA16CC7823C80D660073B59A /* Rockwell-ExpressQTests.xctest */,
+				AA16CC8323C80D660073B59A /* Rockwell-ExpressQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA16CC6023C80D650073B59A /* Rockwell-ExpressQ */ = {
+			isa = PBXGroup;
+			children = (
+				AA16CC6123C80D650073B59A /* AppDelegate.swift */,
+				AA16CC6323C80D650073B59A /* GameScene.sks */,
+				AA16CC6523C80D650073B59A /* Actions.sks */,
+				AA16CC6723C80D650073B59A /* GameScene.swift */,
+				AA16CC6923C80D650073B59A /* GameViewController.swift */,
+				AA16CC6B23C80D650073B59A /* Main.storyboard */,
+				AA16CC6E23C80D660073B59A /* Assets.xcassets */,
+				AA16CC7023C80D660073B59A /* LaunchScreen.storyboard */,
+				AA16CC7323C80D660073B59A /* Info.plist */,
+			);
+			path = "Rockwell-ExpressQ";
+			sourceTree = "<group>";
+		};
+		AA16CC7B23C80D660073B59A /* Rockwell-ExpressQTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA16CC7C23C80D660073B59A /* Rockwell_ExpressQTests.swift */,
+				AA16CC7E23C80D660073B59A /* Info.plist */,
+			);
+			path = "Rockwell-ExpressQTests";
+			sourceTree = "<group>";
+		};
+		AA16CC8623C80D660073B59A /* Rockwell-ExpressQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA16CC8723C80D660073B59A /* Rockwell_ExpressQUITests.swift */,
+				AA16CC8923C80D660073B59A /* Info.plist */,
+			);
+			path = "Rockwell-ExpressQUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA16CC5D23C80D650073B59A /* Rockwell-ExpressQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA16CC8C23C80D660073B59A /* Build configuration list for PBXNativeTarget "Rockwell-ExpressQ" */;
+			buildPhases = (
+				AA16CC5A23C80D650073B59A /* Sources */,
+				AA16CC5B23C80D650073B59A /* Frameworks */,
+				AA16CC5C23C80D650073B59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rockwell-ExpressQ";
+			productName = "Rockwell-ExpressQ";
+			productReference = AA16CC5E23C80D650073B59A /* Rockwell-ExpressQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA16CC7723C80D660073B59A /* Rockwell-ExpressQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA16CC8F23C80D660073B59A /* Build configuration list for PBXNativeTarget "Rockwell-ExpressQTests" */;
+			buildPhases = (
+				AA16CC7423C80D660073B59A /* Sources */,
+				AA16CC7523C80D660073B59A /* Frameworks */,
+				AA16CC7623C80D660073B59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA16CC7A23C80D660073B59A /* PBXTargetDependency */,
+			);
+			name = "Rockwell-ExpressQTests";
+			productName = "Rockwell-ExpressQTests";
+			productReference = AA16CC7823C80D660073B59A /* Rockwell-ExpressQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA16CC8223C80D660073B59A /* Rockwell-ExpressQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA16CC9223C80D660073B59A /* Build configuration list for PBXNativeTarget "Rockwell-ExpressQUITests" */;
+			buildPhases = (
+				AA16CC7F23C80D660073B59A /* Sources */,
+				AA16CC8023C80D660073B59A /* Frameworks */,
+				AA16CC8123C80D660073B59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA16CC8523C80D660073B59A /* PBXTargetDependency */,
+			);
+			name = "Rockwell-ExpressQUITests";
+			productName = "Rockwell-ExpressQUITests";
+			productReference = AA16CC8323C80D660073B59A /* Rockwell-ExpressQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA16CC5623C80D650073B59A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tonyMac;
+				TargetAttributes = {
+					AA16CC5D23C80D650073B59A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					AA16CC7723C80D660073B59A = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = AA16CC5D23C80D650073B59A;
+					};
+					AA16CC8223C80D660073B59A = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = AA16CC5D23C80D650073B59A;
+					};
+				};
+			};
+			buildConfigurationList = AA16CC5923C80D650073B59A /* Build configuration list for PBXProject "Rockwell-ExpressQ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA16CC5523C80D650073B59A;
+			productRefGroup = AA16CC5F23C80D650073B59A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA16CC5D23C80D650073B59A /* Rockwell-ExpressQ */,
+				AA16CC7723C80D660073B59A /* Rockwell-ExpressQTests */,
+				AA16CC8223C80D660073B59A /* Rockwell-ExpressQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA16CC5C23C80D650073B59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA16CC6D23C80D650073B59A /* Main.storyboard in Resources */,
+				AA16CC6423C80D650073B59A /* GameScene.sks in Resources */,
+				AA16CC6F23C80D660073B59A /* Assets.xcassets in Resources */,
+				AA16CC7223C80D660073B59A /* LaunchScreen.storyboard in Resources */,
+				AA16CC6623C80D650073B59A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA16CC7623C80D660073B59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA16CC8123C80D660073B59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA16CC5A23C80D650073B59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA16CC6823C80D650073B59A /* GameScene.swift in Sources */,
+				AA16CC6A23C80D650073B59A /* GameViewController.swift in Sources */,
+				AA16CC6223C80D650073B59A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA16CC7423C80D660073B59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA16CC7D23C80D660073B59A /* Rockwell_ExpressQTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA16CC7F23C80D660073B59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA16CC8823C80D660073B59A /* Rockwell_ExpressQUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA16CC7A23C80D660073B59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA16CC5D23C80D650073B59A /* Rockwell-ExpressQ */;
+			targetProxy = AA16CC7923C80D660073B59A /* PBXContainerItemProxy */;
+		};
+		AA16CC8523C80D660073B59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA16CC5D23C80D650073B59A /* Rockwell-ExpressQ */;
+			targetProxy = AA16CC8423C80D660073B59A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA16CC6B23C80D650073B59A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA16CC6C23C80D650073B59A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA16CC7023C80D660073B59A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA16CC7123C80D660073B59A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA16CC8A23C80D660073B59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA16CC8B23C80D660073B59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA16CC8D23C80D660073B59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rockwell-ExpressQ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Rockwell-ExpressQ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA16CC8E23C80D660073B59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rockwell-ExpressQ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Rockwell-ExpressQ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA16CC9023C80D660073B59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rockwell-ExpressQTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Rockwell-ExpressQTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rockwell-ExpressQ.app/Rockwell-ExpressQ";
+			};
+			name = Debug;
+		};
+		AA16CC9123C80D660073B59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rockwell-ExpressQTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Rockwell-ExpressQTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rockwell-ExpressQ.app/Rockwell-ExpressQ";
+			};
+			name = Release;
+		};
+		AA16CC9323C80D660073B59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rockwell-ExpressQUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Rockwell-ExpressQUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rockwell-ExpressQ";
+			};
+			name = Debug;
+		};
+		AA16CC9423C80D660073B59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rockwell-ExpressQUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Rockwell-ExpressQUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rockwell-ExpressQ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA16CC5923C80D650073B59A /* Build configuration list for PBXProject "Rockwell-ExpressQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA16CC8A23C80D660073B59A /* Debug */,
+				AA16CC8B23C80D660073B59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA16CC8C23C80D660073B59A /* Build configuration list for PBXNativeTarget "Rockwell-ExpressQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA16CC8D23C80D660073B59A /* Debug */,
+				AA16CC8E23C80D660073B59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA16CC8F23C80D660073B59A /* Build configuration list for PBXNativeTarget "Rockwell-ExpressQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA16CC9023C80D660073B59A /* Debug */,
+				AA16CC9123C80D660073B59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA16CC9223C80D660073B59A /* Build configuration list for PBXNativeTarget "Rockwell-ExpressQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA16CC9323C80D660073B59A /* Debug */,
+				AA16CC9423C80D660073B59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA16CC5623C80D650073B59A /* Project object */;
+}
